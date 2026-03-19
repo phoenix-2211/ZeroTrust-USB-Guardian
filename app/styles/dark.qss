@@ -1,0 +1,233 @@
+/* ============================================================
+   ZERO TRUST USB SECURITY  —  NEON CYBERPUNK THEME
+   ============================================================ */
+
+/* ---- GLOBAL ---- */
+QWidget {
+    background-color: #080d16;
+    color: #c9d1e0;
+    font-family: "Segoe UI";
+    font-size: 14px;
+}
+
+QMainWindow {
+    background-color: #080d16;
+}
+
+/* ---- SIDEBAR ---- */
+QWidget#Sidebar {
+    background-color: #070b14;
+    border-right: 1px solid #0e1a2e;
+}
+
+/* ---- NAV BUTTONS ---- */
+QPushButton#NavButton {
+    background-color: transparent;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 16px;
+    text-align: left;
+    font-size: 14px;
+    color: #4a5568;
+    font-family: "Segoe UI";
+    letter-spacing: 1px;
+}
+
+QPushButton#NavButton:hover {
+    background-color: #0d1526;
+    color: #00d4ff;
+    border-left: 3px solid #00d4ff;
+}
+
+QPushButton#NavButton:pressed {
+    background-color: #0a1220;
+    color: #00d4ff;
+}
+
+/* ---- DRIVE TILE ---- */
+QPushButton#DriveTile {
+    background-color: #0b1220;
+    border: 1px solid #0e1a2e;
+    border-radius: 10px;
+    padding: 10px 16px;
+    text-align: left;
+    font-size: 13px;
+    color: #4a5568;
+    font-family: Consolas;
+}
+
+QPushButton#DriveTile:hover {
+    background-color: #0d1830;
+    border: 1px solid #00d4ff;
+    color: #00d4ff;
+}
+
+QPushButton#DriveTile:pressed {
+    background-color: #061020;
+    color: #2b6cff;
+    border: 1px solid #2b6cff;
+}
+
+/* ---- PRIMARY BUTTON ---- */
+QPushButton#PrimaryButton {
+    background-color: transparent;
+    border: 2px solid #00d4ff;
+    border-radius: 12px;
+    color: #00d4ff;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-family: Consolas;
+}
+
+QPushButton#PrimaryButton:hover {
+    background-color: #00d4ff22;
+    border: 2px solid #00d4ff;
+    color: #ffffff;
+}
+
+QPushButton#PrimaryButton:pressed {
+    background-color: #00d4ff44;
+}
+
+/* ---- SMALL BUTTON ---- */
+QPushButton#SmallButton {
+    background-color: transparent;
+    border: 1px solid #1e293b;
+    border-radius: 6px;
+    color: #4a5568;
+    font-size: 10px;
+    letter-spacing: 2px;
+    padding: 4px 12px;
+    font-family: Consolas;
+}
+
+QPushButton#SmallButton:hover {
+    border: 1px solid #e74c3c;
+    color: #e74c3c;
+}
+
+/* ---- SEPARATOR ---- */
+QFrame#Separator {
+    background-color: #0a1428;
+}
+
+/* ---- TITLES ---- */
+QLabel#Title {
+    font-size: 24px;
+    font-weight: 900;
+    letter-spacing: 5px;
+    color: #00d4ff;
+    font-family: Consolas;
+}
+
+/* ---- STAT CARDS ---- */
+QFrame#StatCard {
+    background-color: #0b1220;
+    border: 1px solid #0e1a2e;
+    border-radius: 14px;
+}
+
+/* ---- DRIVE BADGE ---- */
+QLabel#DriveBadge {
+    background-color: #0d1526;
+    border: 1px solid #00d4ff;
+    border-radius: 8px;
+    color: #00d4ff;
+    font-family: Consolas;
+    font-size: 12px;
+    letter-spacing: 2px;
+    padding: 4px 14px;
+}
+
+/* ---- SCAN FEED ---- */
+QTextEdit#ScanFeed {
+    background-color: #050a12;
+    border: 1px solid #0a1428;
+    border-radius: 12px;
+    padding: 14px;
+    font-family: Consolas;
+    font-size: 12px;
+    color: #3ccf91;
+    selection-background-color: #00d4ff33;
+}
+
+/* ---- SCAN PROGRESS BAR ---- */
+QProgressBar#ScanProgress {
+    background-color: #0a1428;
+    border-radius: 3px;
+    border: none;
+}
+
+QProgressBar#ScanProgress::chunk {
+    background: qlineargradient(x1:0,y1:0,x2:1,y2:0,
+        stop:0 #00d4ff, stop:1 #2b6cff);
+    border-radius: 3px;
+}
+
+/* ---- HISTORY LIST ---- */
+QListWidget {
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+QListWidget::item {
+    background-color: #0b1220;
+    padding: 16px 18px;
+    margin: 6px 0px;
+    border-radius: 12px;
+    border: 1px solid #0e1a2e;
+    font-family: Consolas;
+    font-size: 13px;
+}
+
+QListWidget::item:hover {
+    background-color: #0d1830;
+    border: 1px solid #00d4ff55;
+}
+
+QListWidget::item:selected {
+    background-color: #0a1428;
+    border: 1px solid #00d4ff;
+}
+
+/* ---- SCROLLBAR ---- */
+QScrollBar:vertical {
+    background: transparent;
+    width: 8px;
+    margin: 0px;
+}
+
+QScrollBar::handle:vertical {
+    background: #0e1a2e;
+    border-radius: 4px;
+    min-height: 30px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background: #00d4ff44;
+}
+
+QScrollBar::add-line, QScrollBar::sub-line { height: 0px; }
+
+QScrollBar:horizontal {
+    background: transparent;
+    height: 8px;
+}
+
+QScrollBar::handle:horizontal {
+    background: #0e1a2e;
+    border-radius: 4px;
+}
+
+/* ---- TOOLTIP ---- */
+QToolTip {
+    background-color: #0b1220;
+    color: #00d4ff;
+    border: 1px solid #00d4ff55;
+    border-radius: 6px;
+    padding: 6px 10px;
+    font-family: Consolas;
+    font-size: 12px;
+}

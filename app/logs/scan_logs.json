@@ -1,0 +1,362 @@
+[
+  {
+    "usb": "E:\\",
+    "time": "2026-03-19 02:09:04",
+    "decision": "BLOCK",
+    "severity": "CRITICAL",
+    "final_score": 138.39,
+    "rule_score": 210,
+    "rule_hits": [
+      {
+        "file": "E:\\SetupUSB.bat",
+        "rule": "OBFUSCATED_SCRIPT",
+        "score": 25
+      },
+      {
+        "file": "E:\\Backend\\venv\\Lib\\site-packages\\greenlet\\platform\\setup_switch_x64_masm.cmd",
+        "rule": "OBFUSCATED_SCRIPT",
+        "score": 25
+      },
+      {
+        "file": "E:\\Backend\\venv\\Lib\\site-packages\\urllib3\\contrib\\emscripten\\emscripten_fetch_worker.js",
+        "rule": "OBFUSCATED_SCRIPT",
+        "score": 25
+      },
+      {
+        "file": "E:\\Backend\\venv\\Lib\\site-packages\\werkzeug\\debug\\shared\\debugger.js",
+        "rule": "OBFUSCATED_SCRIPT",
+        "score": 25
+      },
+      {
+        "file": "E:\\Backend\\venv\\Scripts\\activate.bat",
+        "rule": "OBFUSCATED_SCRIPT",
+        "score": 25
+      },
+      {
+        "file": "E:\\Backend\\venv\\Scripts\\Activate.ps1",
+        "rule": "OBFUSCATED_SCRIPT",
+        "score": 25
+      },
+      {
+        "file": "E:\\Backend\\venv\\Scripts\\deactivate.bat",
+        "rule": "OBFUSCATED_SCRIPT",
+        "score": 25
+      },
+      {
+        "file": "MULTIPLE_FILES",
+        "rule": "MULTIPLE_EXECUTABLES",
+        "score": 15
+      },
+      {
+        "file": "USB_ROOT",
+        "rule": "SCRIPT_EXE_COMBO",
+        "score": 20
+      }
+    ],
+    "ml_probs": {
+      "HIGH": 0.0,
+      "LOW": 63.45,
+      "MEDIUM": 36.55
+    }
+  },
+  {
+    "usb": "E:\\",
+    "time": "2026-02-16 19:32:05",
+    "decision": "WARN",
+    "severity": "SOFT_WARN",
+    "final_score": 44.01,
+    "rule_score": 60,
+    "rule_hits": [
+      {
+        "file": "E:\\SetupUSB.bat",
+        "rule": "OBFUSCATED_SCRIPT",
+        "score": 25
+      },
+      {
+        "file": "MULTIPLE_FILES",
+        "rule": "MULTIPLE_EXECUTABLES",
+        "score": 15
+      },
+      {
+        "file": "USB_ROOT",
+        "rule": "SCRIPT_EXE_COMBO",
+        "score": 20
+      }
+    ],
+    "ml_probs": {
+      "LOW": 99.94,
+      "MEDIUM": 0.06,
+      "HIGH": 0.0
+    }
+  },
+  {
+    "usb": "E:\\",
+    "time": "2025-12-29 21:38:51",
+    "decision": "WARN",
+    "severity": "SOFT_WARN",
+    "final_score": 44.01,
+    "rule_score": 60,
+    "rule_hits": [
+      {
+        "file": "E:\\SetupUSB.bat",
+        "rule": "OBFUSCATED_SCRIPT",
+        "score": 25
+      },
+      {
+        "file": "MULTIPLE_FILES",
+        "rule": "MULTIPLE_EXECUTABLES",
+        "score": 15
+      },
+      {
+        "file": "USB_ROOT",
+        "rule": "SCRIPT_EXE_COMBO",
+        "score": 20
+      }
+    ],
+    "ml_probs": {
+      "LOW": 99.94,
+      "MEDIUM": 0.06,
+      "HIGH": 0.0
+    }
+  },
+  {
+    "usb": "E:\\",
+    "time": "2025-12-29 21:36:44",
+    "decision": "ALLOW",
+    "severity": "SAFE",
+    "final_score": 17.01,
+    "rule_score": 15,
+    "rule_hits": [
+      {
+        "file": "MULTIPLE_FILES",
+        "rule": "MULTIPLE_EXECUTABLES",
+        "score": 15
+      }
+    ],
+    "ml_probs": {
+      "LOW": 99.94,
+      "MEDIUM": 0.06,
+      "HIGH": 0.0
+    }
+  },
+  {
+    "usb": "E:\\",
+    "time": "2025-12-29 20:07:45",
+    "decision": "ALLOW",
+    "severity": "SAFE",
+    "final_score": 17.01,
+    "rule_score": 15,
+    "rule_hits": [
+      {
+        "file": "MULTIPLE_FILES",
+        "rule": "MULTIPLE_EXECUTABLES",
+        "score": 15
+      }
+    ],
+    "ml_probs": {
+      "LOW": 99.94,
+      "MEDIUM": 0.06,
+      "HIGH": 0.0
+    }
+  },
+  {
+    "usb": "E:\\",
+    "time": "2025-12-29 19:57:59",
+    "decision": "ALLOW",
+    "severity": "SAFE",
+    "final_score": 17.01,
+    "rule_score": 15,
+    "rule_hits": [
+      {
+        "file": "MULTIPLE_FILES",
+        "rule": "MULTIPLE_EXECUTABLES",
+        "score": 15
+      }
+    ],
+    "ml_probs": {
+      "LOW": 99.94,
+      "MEDIUM": 0.06,
+      "HIGH": 0.0
+    }
+  },
+  {
+    "usb": "E:\\",
+    "time": "2025-12-29 19:45:22",
+    "decision": "ALLOW",
+    "severity": "SAFE",
+    "final_score": 17.01,
+    "rule_score": 15,
+    "rule_hits": [
+      {
+        "file": "MULTIPLE_FILES",
+        "rule": "MULTIPLE_EXECUTABLES",
+        "score": 15
+      }
+    ],
+    "ml_probs": {
+      "LOW": 99.94,
+      "MEDIUM": 0.06,
+      "HIGH": 0.0
+    }
+  },
+  {
+    "usb": "E:\\",
+    "time": "2025-12-29 19:33:16",
+    "decision": "ALLOW",
+    "severity": "SAFE",
+    "final_score": 17.01,
+    "rule_score": 15,
+    "rule_hits": [
+      {
+        "file": "MULTIPLE_FILES",
+        "rule": "MULTIPLE_EXECUTABLES",
+        "score": 15
+      }
+    ],
+    "ml_probs": {
+      "LOW": 99.94,
+      "MEDIUM": 0.06,
+      "HIGH": 0.0
+    }
+  },
+  {
+    "usb": "E:\\",
+    "time": "2025-12-29 19:32:50",
+    "decision": "ALLOW",
+    "severity": "SAFE",
+    "final_score": 17.01,
+    "rule_score": 15,
+    "rule_hits": [
+      {
+        "file": "MULTIPLE_FILES",
+        "rule": "MULTIPLE_EXECUTABLES",
+        "score": 15
+      }
+    ],
+    "ml_probs": {
+      "LOW": 99.94,
+      "MEDIUM": 0.06,
+      "HIGH": 0.0
+    }
+  },
+  {
+    "usb": "E:\\",
+    "time": "2025-12-29 19:25:57",
+    "decision": "ALLOW",
+    "severity": "SAFE",
+    "final_score": 17.01,
+    "rule_score": 15,
+    "rule_hits": [
+      {
+        "file": "MULTIPLE_FILES",
+        "rule": "MULTIPLE_EXECUTABLES",
+        "score": 15
+      }
+    ],
+    "ml_probs": {
+      "LOW": 99.94,
+      "MEDIUM": 0.06,
+      "HIGH": 0.0
+    }
+  },
+  {
+    "usb": "E:\\",
+    "time": "2025-12-29 19:25:51",
+    "decision": "ALLOW",
+    "severity": "SAFE",
+    "final_score": 17.01,
+    "rule_score": 15,
+    "rule_hits": [
+      {
+        "file": "MULTIPLE_FILES",
+        "rule": "MULTIPLE_EXECUTABLES",
+        "score": 15
+      }
+    ],
+    "ml_probs": {
+      "LOW": 99.94,
+      "MEDIUM": 0.06,
+      "HIGH": 0.0
+    }
+  },
+  {
+    "usb": "E:\\",
+    "time": "2025-12-29 09:12:30",
+    "decision": "ALLOW",
+    "severity": "SAFE",
+    "final_score": 17.01,
+    "rule_score": 15,
+    "rule_hits": [
+      {
+        "file": "MULTIPLE_FILES",
+        "rule": "MULTIPLE_EXECUTABLES",
+        "score": 15
+      }
+    ],
+    "ml_probs": {
+      "LOW": 99.94,
+      "MEDIUM": 0.06,
+      "HIGH": 0.0
+    }
+  },
+  {
+    "usb": "E:\\",
+    "time": "2025-12-29 09:12:19",
+    "decision": "ALLOW",
+    "severity": "SAFE",
+    "final_score": 17.01,
+    "rule_score": 15,
+    "rule_hits": [
+      {
+        "file": "MULTIPLE_FILES",
+        "rule": "MULTIPLE_EXECUTABLES",
+        "score": 15
+      }
+    ],
+    "ml_probs": {
+      "LOW": 99.94,
+      "MEDIUM": 0.06,
+      "HIGH": 0.0
+    }
+  },
+  {
+    "usb": "E:\\",
+    "time": "2025-12-29 08:40:39",
+    "decision": "ALLOW",
+    "severity": "SAFE",
+    "final_score": 17.01,
+    "rule_score": 15,
+    "rule_hits": [
+      {
+        "file": "MULTIPLE_FILES",
+        "rule": "MULTIPLE_EXECUTABLES",
+        "score": 15
+      }
+    ],
+    "ml_probs": {
+      "LOW": 99.94,
+      "MEDIUM": 0.06,
+      "HIGH": 0.0
+    }
+  },
+  {
+    "usb": "E:\\",
+    "time": "2025-12-29 08:40:25",
+    "decision": "ALLOW",
+    "severity": "SAFE",
+    "final_score": 17.01,
+    "rule_score": 15,
+    "rule_hits": [
+      {
+        "file": "MULTIPLE_FILES",
+        "rule": "MULTIPLE_EXECUTABLES",
+        "score": 15
+      }
+    ],
+    "ml_probs": {
+      "LOW": 99.94,
+      "MEDIUM": 0.06,
+      "HIGH": 0.0
+    }
+  }
+]
